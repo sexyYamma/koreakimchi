@@ -1,11 +1,11 @@
-import './App.css';
+import React from "react";
 
-function App() {
-  return (
-    <div>
-      
-    </div>
-  );
-}
+import * as S from "./index";
+
+const App = () => {
+  return <div className="Machine_Container">
+    
+  </div>;
+};
 
 export default App;
