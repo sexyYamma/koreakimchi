@@ -1,9 +1,13 @@
 import React from "react";
 
-import * as S from "./index";
+import * as S from "./style";
 
-const Menus = () => {
-  return <div></div>;
+const Menu = () => {
+  return (
+    <div>
+      
+    </div>
+  );
 };
 
-export default Menus;
+export default Menu;

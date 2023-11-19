@@ -1,11 +1,16 @@
-import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-import * as S from "./index";
+import Main from "./Pages/Main";
 
 const App = () => {
-  return <div className="Machine_Container">
-    
-  </div>;
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="*" element={<h1>404 Not Found</h1>} />
+      </Routes>
+    </Router>
+  );
 };
 
 export default App;

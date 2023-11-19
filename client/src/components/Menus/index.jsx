@@ -1,9 +1,9 @@
 import React from "react";
 
-import * as S from "./index";
+import * as S from "./style";
 
-const Menu = () => {
+const Menus = () => {
   return <div></div>;
 };
 
-export default Menu;
+export default Menus;
