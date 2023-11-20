@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import * as S from "./style";
 
@@ -7,18 +7,16 @@ import MenuData from "../../Data/Menu";
 
 const Menus = () => {
   return (
-    <>
-      {MenuData.map((item, index) => {
-        return (
-          <Menu
-            MenuImg={item.MenuImg}
-            MenuName={item.MenuName}
-            MenuPrice={item.MenuPrice}
-            MenuCount={item.MenuCount}
-          />
-        );
-      })}
-    </>
+    <S.Layout>
+      {MenuData.map((item, index) => (
+        <Menu
+          MenuImg={item.MenuImg}
+          MenuName={item.MenuName}
+          MenuPrice={item.MenuPrice}
+          MenuCount={item.MenuCount}
+        />
+      ))}
+    </S.Layout>
   );
 };
 

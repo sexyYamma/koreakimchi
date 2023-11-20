@@ -5,7 +5,9 @@ const Menu = ({ MenuImg, MenuName, MenuPrice, MenuCount }) => {
   const [border, setBorder] = useState(false);
 
   const handleClicked = () => {
-    if (!MenuCount) {
+    console.log("Clicked!");
+    console.log(border);
+    if (MenuCount) {
       setBorder(!border);
     }
   };
@@ -17,7 +19,7 @@ const Menu = ({ MenuImg, MenuName, MenuPrice, MenuCount }) => {
           <S.MenuImg src={MenuImg} />
           <S.MenuName>{MenuName}</S.MenuName>
           <S.MenuPrice>{MenuPrice}</S.MenuPrice>
-          {!MenuCount ? <S.SoldOut>품절</S.SoldOut> : null}
+          {!MenuCount && <S.SoldOut>품절</S.SoldOut>}
         </S.Menu>
       </S.Layout>
     </>

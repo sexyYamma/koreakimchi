@@ -4,13 +4,13 @@ export const Layout = styled.div`
   background-color: white;
   cursor: pointer;
   border: 5px solid ${(props) => (props.border ? "#6327FE" : "#D8D8D8")};
-  width: 10vw;
-  height: 30vh;
+  width: 8vw;
+  height: 25vh;
   border-radius: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 40px 60px 40px 60px;
+  margin: 15px 25px 15px 25px;
   position: relative;
 `;
 
@@ -36,7 +36,7 @@ export const SoldOut = styled.p`
 `;
 
 export const MenuImg = styled.img`
-  width: 160px;
+  width: 100px;
 `;
 
 export const MenuName = styled.p`
