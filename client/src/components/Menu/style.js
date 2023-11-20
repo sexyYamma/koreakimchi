@@ -36,7 +36,7 @@ export const SoldOut = styled.p`
 `;
 
 export const MenuImg = styled.img`
-  width: 100px;
+  width: 120px;
 `;
 
 export const MenuName = styled.p`
