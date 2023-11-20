@@ -1,9 +1,6 @@
 import styled from "styled-components";
 
 export const Layout = styled.div`
-  position: absolute;
-  bottom: 3%;
-  left: 3%;
   display: flex;
   align-items: center;
   justify-content: center;

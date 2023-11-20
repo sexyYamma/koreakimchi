@@ -4,12 +4,12 @@ import * as S from "./style";
 
 import 꼬깔콘 from "../../assets/Img/Menu/꼬깔콘.png";
 
-const Order = () => {
+const Order = ({ OrderImg, OrderName, OrderCount }) => {
   return (
     <S.Layout>
-      <S.OrderImg src={꼬깔콘} />
-      <S.OrderName>꼬깔콘</S.OrderName>
-      <S.OrderCount>1</S.OrderCount>
+      <S.OrderImg src={OrderImg} />
+      <S.OrderName>{OrderName}</S.OrderName>
+      <S.OrderCount type="number" />
     </S.Layout>
   );
 };

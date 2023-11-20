@@ -4,6 +4,7 @@ import * as S from "./style";
 
 import Logo from "../../assets/Img/Logo.svg";
 import Menus from "../../components/Menus";
+import Orders from "../../components/Orders";
 
 const Main = () => {
   return (
@@ -12,7 +13,10 @@ const Main = () => {
         <S.StudentName>1314 최성훈, 1315 추성우</S.StudentName>
         <S.Logo src={Logo} alt="" />
       </S.StudentContainer>
-      <Menus />
+      <S.Main>
+        <Menus />
+        <Orders />
+      </S.Main>
     </S.Layout>
   );
 };

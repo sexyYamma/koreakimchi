@@ -27,3 +27,11 @@ export const Logo = styled.img`
   left: 50%;
   transform: translate(-50%, 0);
 `;
+
+export const Main = styled.div`
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  margin: 20px;
+  bottom: 0;
+`;
