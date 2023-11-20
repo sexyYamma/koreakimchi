@@ -9,7 +9,7 @@ const Order = ({ OrderImg, OrderName, OrderCount }) => {
     <S.Layout>
       <S.OrderImg src={OrderImg} />
       <S.OrderName>{OrderName}</S.OrderName>
-      <S.OrderCount type="number" />
+      <S.OrderCount type="number" min="1" />
     </S.Layout>
   );
 };
