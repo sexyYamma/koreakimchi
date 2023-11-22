@@ -19,7 +19,8 @@ export const OrderName = styled.p`
   font-weight: 600;
 `;
 
-export const OrderCount = styled.input`
+export const OrderDelete = styled.button`
+  cursor: pointer;
   border: 3px solid #dedede;
   width: 40px;
   height: 40px;
@@ -30,4 +31,5 @@ export const OrderCount = styled.input`
   font-weight: 400;
   border-radius: 10px;
   margin-right: 10px;
+  background-color: red;
 `;

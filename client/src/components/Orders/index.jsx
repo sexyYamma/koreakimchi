@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 
 import * as S from "./style";
 
-import Order from "../Order";
+import Order from "../Order/index";
 import OrderData from "../../Data/Order";
 
 const Orders = () => {
@@ -12,9 +12,10 @@ const Orders = () => {
       <S.Order>
         {OrderData.map((item, index) => (
           <Order
-            OrderImg={item.OrderImg}
-            OrderName={item.OrderName}
-            OrderCount={item.OrderCount}
+            key={index}
+            OrderImg={item.MenuImg}
+            OrderName={item.MenuName}
+            OrderCount={item.MenuCount}
           />
         ))}
       </S.Order>
