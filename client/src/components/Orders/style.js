@@ -28,9 +28,6 @@ export const Order = styled.div`
   border-radius: 15px;
   margin: 10px 10px 5px 10px;
   overflow-y: auto;
-  &::-webkit-scrollbar {
-    display: none;
-  }
 `;
 
 export const OrderTotal = styled.p`

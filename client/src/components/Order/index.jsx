@@ -7,7 +7,6 @@ const Order = ({ OrderImg, OrderName }) => {
     <S.Layout>
       <S.OrderImg src={OrderImg} />
       <S.OrderName>{OrderName}</S.OrderName>
-      <S.OrderDelete>X</S.OrderDelete>
     </S.Layout>
   );
 };

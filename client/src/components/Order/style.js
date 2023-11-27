@@ -5,9 +5,9 @@ export const Layout = styled.div`
   background-color: white;
   border: 3px solid #dedede;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: row;
   border-radius: 10px;
+  align-items: center;
   margin: 10px;
 `;
 
@@ -17,19 +17,7 @@ export const OrderImg = styled.img`
 
 export const OrderName = styled.p`
   font-weight: 600;
-`;
-
-export const OrderDelete = styled.button`
-  cursor: pointer;
-  border: 3px solid #dedede;
-  width: 40px;
-  height: 40px;
-  font-size: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 400;
-  border-radius: 10px;
-  margin-right: 10px;
-  background-color: red;
+  width: 100%;
+  text-align: center;
+  margin-right: 30px;
 `;
