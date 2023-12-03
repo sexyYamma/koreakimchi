@@ -73,6 +73,7 @@ const fetchData = async () => {
     console.error("데이터를 가져오는 도중 오류가 발생했습니다:", error);
     return [];
   }
+  fetchData();
 };
 
 export default MenuData;

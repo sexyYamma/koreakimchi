@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.js": "/static/js/main.7e99e249.js",
+    "static/media/신짱.png": "/static/media/신짱.4c5e550b9ba639b1e4d1.png",
+    "static/media/꼬깔콘.png": "/static/media/꼬깔콘.706d096d2a2df5e3f42d.png",
+    "static/media/도리토스.png": "/static/media/도리토스.cbe8a33eb5fe2bd7ddf7.png",
+    "static/media/새우깡.png": "/static/media/새우깡.757df672cd24d8b0f2f7.png",
+    "static/media/양파링.png": "/static/media/양파링.3bb26e2b3c76a8cb1abb.png",
+    "static/media/칠성사이다.png": "/static/media/칠성사이다.e6513865bb35cbbb4fbc.png",
+    "static/media/코카콜라.png": "/static/media/코카콜라.521c0c9ba35b706b07fa.png",
+    "static/media/밀키스.png": "/static/media/밀키스.1d154cdb44e1ec40f47b.png",
+    "static/media/파워에이드.png": "/static/media/파워에이드.9c4cdda8560a1275c743.png",
+    "static/media/포카리스웨트.png": "/static/media/포카리스웨트.fb6c1a735c5df07d494e.png",
+    "static/media/Logo.svg": "/static/media/Logo.ff8dde0085e67a12500ac5ac15f0f12e.svg",
+    "index.html": "/index.html",
+    "main.7e99e249.js.map": "/static/js/main.7e99e249.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.7e99e249.js"
+  ]
+}
